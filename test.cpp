@@ -1,0 +1,1 @@
+#include <iostream>using namespace std;int main(int argc, char const *argv[]){	int k = 44;		int* p;	//p = &k;	*p=k;	cout<< &(k)<< " " << &(*p) << '\n';		cout<< &(p)<< " " << (*p) << '\n';	return 0;}
