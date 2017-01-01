@@ -93,6 +93,9 @@ int main(int argc, char* argv[]) {
 		a=atoi(memblock);
 		std::cout << "a = " << std::bitset<64>(a)  << std::endl;
 
+		//another way of putting it in a binary view:
+		std::cout.write(reinterpret_cast<const char*>(&a), sizeof a);
+
 	}
 	
 	int fd= open(filename, O_RDONLY);
