@@ -1,0 +1,10 @@
+/Users/sergey/Documents/practice/dectobin/bin/Debug/netcoreapp2.0/dectobin.deps.json
+/Users/sergey/Documents/practice/dectobin/bin/Debug/netcoreapp2.0/dectobin.runtimeconfig.json
+/Users/sergey/Documents/practice/dectobin/bin/Debug/netcoreapp2.0/dectobin.runtimeconfig.dev.json
+/Users/sergey/Documents/practice/dectobin/bin/Debug/netcoreapp2.0/dectobin.dll
+/Users/sergey/Documents/practice/dectobin/bin/Debug/netcoreapp2.0/dectobin.pdb
+/Users/sergey/Documents/practice/dectobin/obj/Debug/netcoreapp2.0/dectobin.csproj.CoreCompileInputs.cache
+/Users/sergey/Documents/practice/dectobin/obj/Debug/netcoreapp2.0/dectobin.AssemblyInfoInputs.cache
+/Users/sergey/Documents/practice/dectobin/obj/Debug/netcoreapp2.0/dectobin.AssemblyInfo.cs
+/Users/sergey/Documents/practice/dectobin/obj/Debug/netcoreapp2.0/dectobin.dll
+/Users/sergey/Documents/practice/dectobin/obj/Debug/netcoreapp2.0/dectobin.pdb
