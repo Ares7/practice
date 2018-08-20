@@ -55,9 +55,9 @@ int main()
 
     cout << "Hello, World!" << endl;
 
-    array<int, 4> visied;
-    array<int, 4> dist;
-    array<int, 4> pred;
+    array<int, 5> visied;
+    array<int, 5> dist;
+    array<int, 5> pred;
 
     visied.fill(-1);
     dist.fill(999999);
@@ -71,6 +71,8 @@ int main()
     {
         int v = i.first;
         int weight = i.second;
+        dist[v] = weight;
+        pred[v] = 0;
 
         pq.push(make_pair(v, weight));
     }
@@ -89,9 +91,9 @@ int main()
                 int ngb_v = ngb.first;
                 int ngb_weight = ngb.second;
 
-                if (dist[ngb_v] > dist[v] + weight)
+                if (dist[ngb_v] > dist[v] + ngb_weight)
                 {
-                    dist[ngb_v] = dist[v] + weight;
+                    dist[ngb_v] = dist[v] + ngb_weight;
                     pred[ngb_v] = v;
 
                     pq.push(make_pair(ngb_v, ngb_weight));
@@ -110,6 +112,10 @@ int main()
 
 
     cout << dist[4] << endl;
+//    cout << pred[4] << endl;
+//    cout << dist[pred[4]] << endl;
+//    cout << pred[pred[4]] << endl;
+//    cout << dist[pred[pred[4]]] << endl;
     delete[] neigb;
 
     return 0;
