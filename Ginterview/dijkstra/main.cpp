@@ -16,8 +16,8 @@ void printGraph(int NN, list<pair<int, int> > *neigb)
         {
             // Get vertex label and weight of current adjacent
             // of u.
-            int v = (*i).first;
-            int weight = (*i).second;
+            int v = i->first;
+            int weight = i->second;
 
             cout << v << " " << weight << "; ";
         }
@@ -41,12 +41,11 @@ void fillGraph(list<pair<int, int> > *neigb)
 }
 
 
-
 int main()
 {
     int NN = 4;
 
-    list<pair<int, int> >* neigb;
+    list<pair<int, int> > *neigb;
     neigb = new list<pair<int, int> >[NN];
 
     priority_queue<pair<int, int>> pq;
@@ -68,28 +67,49 @@ int main()
     dist[0] = 0;
     pred[0] = 0;
 
-
-    for (auto& i: neigb[0])
+    for (auto &i: neigb[0])
     {
-        int v = (*i).first;
-        int weight = (*i).second;
+        int v = i.first;
+        int weight = i.second;
 
-        pq.push(make_pair(v, weight + dist[0]));
-
-
-//            if (dist[v] > weight + dist[u])
-//            {
-//                dist[v] = weight + dist[u];
-//                pred[v] = u;
-//            }
+        pq.push(make_pair(v, weight));
+    }
 
 
+    while (!pq.empty())
+    {
+        auto i = pq.top();
+        int v = i.first;
+        int weight = i.second;
 
-        //visied[u] = 1;
+        if (visied[v] != 1)
+        {
+            for (auto &ngb: neigb[v])
+            {
+                int ngb_v = ngb.first;
+                int ngb_weight = ngb.second;
+
+                if (dist[ngb_v] > dist[v] + weight)
+                {
+                    dist[ngb_v] = dist[v] + weight;
+                    pred[ngb_v] = v;
+
+                    pq.push(make_pair(ngb_v, ngb_weight));
+                }
+
+
+            }
+            visied[v] = 1;
+
+        }
+        pq.pop();
+
+        //pq.push(make_pair(v, weight + dist[0]));
 
     }
 
-    //cout << dist[4] << endl;
+
+    cout << dist[4] << endl;
     delete[] neigb;
 
     return 0;

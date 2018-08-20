@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/sergey/Documents/practice/Ginterview/dijkstra
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/sergey/Documents/practice/Ginterview/dijkstra
 -- The C compiler identification is AppleClang 9.1.0.9020039
 -- The CXX compiler identification is AppleClang 9.1.0.9020039
 -- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc
