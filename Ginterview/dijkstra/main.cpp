@@ -2,6 +2,8 @@
 #include <list>
 #include <array>
 #include <queue>
+#include <unordered_map>
+#include <set>
 
 using namespace std;
 #define N = 10;
@@ -117,6 +119,32 @@ int main()
 //    cout << pred[pred[4]] << endl;
 //    cout << dist[pred[pred[4]]] << endl;
     delete[] neigb;
+
+
+    unordered_map<int, string> streets;
+
+    streets[0] = "kensington";
+    streets[100] = "wbt";
+
+    for(auto& st : streets)
+    {
+        cout << st.first << ' ' <<st.second <<endl;
+    }
+
+    cout << sizeof(streets)<<endl;
+
+
+    // empty set container
+    set <int, greater <int> > gquiz1;
+
+    // insert elements in random order
+    gquiz1.insert(40);
+    gquiz1.insert(30);
+    set <int, greater <int> > :: iterator itr;
+    for (itr = gquiz1.begin(); itr != gquiz1.end(); ++itr)
+    {
+        cout << '\t' << *itr;
+    }
 
     return 0;
 }

@@ -27,20 +27,21 @@
     <session id="-825097522">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="210" />
+          <entry key="cpp" value="395" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open" />
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="210" />
+          <entry key="ObjectiveC" value="395" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open" />
@@ -56,11 +57,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="113" selection-start-line="113" selection-end-line="113" />
+            <state relative-caret-position="249">
+              <caret line="137" column="37" selection-start-line="137" selection-start-column="37" selection-end-line="137" selection-end-column="37" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
                 <element signature="e#109#620#0" />
+                <element signature="e#622#1003#0" />
               </folding>
             </state>
           </provider>
@@ -151,24 +153,24 @@
       <option name="presentableId" value="Default" />
       <updated>1532584111935</updated>
       <workItem from="1532584113647" duration="11670000" />
-      <workItem from="1534797323277" duration="3996000" />
+      <workItem from="1534797323277" duration="5155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15666000" />
+    <option name="totallyTimeSpent" value="16825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1366" height="677" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987715" visible="true" weight="0.25302115" />
-      <window_info id="Structure" order="1" sideWeight="0.5012285" side_tool="true" visible="true" weight="0.25302115" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834985" visible="true" weight="0.25302115" />
+      <window_info id="Structure" order="1" sideWeight="0.50165015" side_tool="true" visible="true" weight="0.25302115" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32838285" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39768976" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -190,17 +192,6 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>80</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
@@ -214,11 +205,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        <state relative-caret-position="249">
+          <caret line="137" column="37" selection-start-line="137" selection-start-column="37" selection-end-line="137" selection-end-column="37" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
             <element signature="e#109#620#0" />
+            <element signature="e#622#1003#0" />
           </folding>
         </state>
       </provider>
