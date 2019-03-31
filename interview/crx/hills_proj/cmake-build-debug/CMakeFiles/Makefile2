@@ -59,10 +59,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sergey/Documents/interview/crx/hills_proj
+CMAKE_SOURCE_DIR = /Users/sergey/Documents/practice/interview/crx/hills_proj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/sergey/Documents/interview/crx/hills_proj/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/sergey/Documents/practice/interview/crx/hills_proj/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/hills_proj.dir
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /Users/sergey/Documents/interview/crx/hills_proj/cmake-build-
 CMakeFiles/hills_proj.dir/all:
 	$(MAKE) -f CMakeFiles/hills_proj.dir/build.make CMakeFiles/hills_proj.dir/depend
 	$(MAKE) -f CMakeFiles/hills_proj.dir/build.make CMakeFiles/hills_proj.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/sergey/Documents/interview/crx/hills_proj/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target hills_proj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/sergey/Documents/practice/interview/crx/hills_proj/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target hills_proj"
 .PHONY : CMakeFiles/hills_proj.dir/all
 
 # Include target in all.
@@ -81,9 +81,9 @@ all: CMakeFiles/hills_proj.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hills_proj.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergey/Documents/interview/crx/hills_proj/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergey/Documents/practice/interview/crx/hills_proj/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hills_proj.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergey/Documents/interview/crx/hills_proj/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergey/Documents/practice/interview/crx/hills_proj/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/hills_proj.dir/rule
 
 # Convenience name for target.
