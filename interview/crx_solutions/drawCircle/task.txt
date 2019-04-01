@@ -1,0 +1,35 @@
+Task 2: Write a program in java that requests for the following inputs and then outputs an image of a black circle in white background in png.
+
+ 
+
+Inputs:
+
+  - Radius of the circle in pixel: r
+
+  - Thickness of the circle in pixel: d
+
+  - Center of the circle in pixel coordinate: x, y
+
+  - Size of the image in pixel: h, w
+
+ 
+
+Outputs:
+
+  - circle.png
+
+ 
+
+Additional considerations:
+
+  - The input will be given such that the circle is fully contained in the image.
+
+ 
+
+Hint:
+
+  - Feel free to use external libraries to do everything else except for the function to draw the circle.
+
+  - Assume that you only have 5 hours to provide your solution.
+
+  - It goes without saying that we are looking beyond simply just a correct solution.
